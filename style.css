@@ -1,4 +1,4 @@
-html {
+html, body {
     margin: 0;
 	padding: 0;
 	border: 0;
@@ -6,6 +6,8 @@ html {
     min-height: 100vh;
 	overflow-x: hidden;
 }
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
 
 #Hero-Section {
 	padding: 100px 100px 100px 100px;
@@ -16,7 +18,7 @@ html {
 
 .herovideo {
 	height: 100%;
-	left: -15%;
+	left: 0%;
 	top:-50%;
 	object-fit: cover;
 	position: absolute;
