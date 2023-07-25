@@ -21,7 +21,7 @@ html {
 	object-fit: cover;
 	position: absolute;
 	top: 0;
-	width: 170%;
+	/*width: 170%; */
 	z-index: -1;
 	background-attachment: fixed;
 }
