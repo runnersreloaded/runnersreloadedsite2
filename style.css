@@ -25,12 +25,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
 .herovideo {
 	height: 150%;
 	left: 0%;
-	top:-50%;
+	top:0;
 	object-fit: cover;
 	position: absolute;
-	width: 100%;
+	width: 175%;
 	z-index: -1;
-	background-attachment: fixed;
 }
 
 .hero-group {
