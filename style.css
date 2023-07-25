@@ -10,19 +10,24 @@ html, body {
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
 
 #Hero-Section {
-	padding: 100px 100px 100px 100px;
 	position: relative;
-	background-attachment: fixed;
-	
+}
+
+#Hero-Section::before {
+	background-image: url('https://i.imgur.com/1rSHzVC.png');
+	background-repeat: repeat;
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 100%;
 }
 
 .herovideo {
-	height: 100%;
+	height: 150%;
 	left: 0%;
 	top:-50%;
 	object-fit: cover;
 	position: absolute;
-	top: 0;
 	width: 100%;
 	z-index: -1;
 	background-attachment: fixed;
