@@ -14,7 +14,7 @@
 .herovideo {
 	height: 150%;
 	left: -10%;
-	top:-10%;
+	top:-25%;
 	object-fit: cover;
 	position: absolute;
 	width: 175%;
@@ -23,7 +23,7 @@
 
 .hero-group {
 	left: 2%;
-	padding: 7% 0;
+	padding: 8% 0;
 	position: relative;
 	text-align: left;
 	width: 95%;
