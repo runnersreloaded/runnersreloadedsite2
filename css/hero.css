@@ -1,0 +1,52 @@
+#Hero-Section {
+	position: relative;
+}
+
+#Hero-Section::before {
+	background-image: url('https://i.imgur.com/1rSHzVC.png');
+	background-repeat: repeat;
+    content: '';
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.herovideo {
+	height: 150%;
+	left: -10%;
+	top:-10%;
+	object-fit: cover;
+	position: absolute;
+	width: 175%;
+	z-index: -1;
+}
+
+.hero-group {
+	left: 2%;
+	padding: 7% 0;
+	position: relative;
+	text-align: left;
+	width: 95%;
+	gap: 20px;
+}
+
+.hero-group img {
+	max-width: 100%;
+	height: auto;
+}
+
+.hero-group h4 {
+	text-transform: uppercase;
+	font-style: italic;
+	color:whitesmoke;
+	font-size: 4vw;
+	font-weight: 700;
+	letter-spacing: 1.5px;
+}
+
+.hero-group button {
+	font-style: italic;
+	letter-spacing: 1.85px;
+	font-size: 22px;
+	max-width: 100%;
+}

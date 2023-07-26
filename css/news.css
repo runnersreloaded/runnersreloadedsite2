@@ -1,0 +1,52 @@
+#news {
+	padding: 5% 10% 5% 10%;
+	background-image: url("https://i.imgur.com/DAEx1bx.jpg");
+	min-height: 50vh; 
+	position: relative;
+	/* Copy background properties from parallax1 */
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	gap: 20px;
+
+}
+
+#news h2, h3 {
+	text-align: center;
+	font-size: 3em;
+	text-transform: uppercase;
+	font-style: italic;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+}
+
+#news h3 {
+	text-align: left;
+	font-size: 3em;
+	text-transform: uppercase;
+	font-style: italic;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	color: white;
+}
+
+#news hr {
+	border-top: 5px dashed white;
+}
+
+#news a:link{
+	text-decoration: none;
+}
+#news p {
+	color: white;
+}
+#date {
+	color: #dc3545;
+}
+
+.col-4 {
+	height: 550px;
+	width: auto;
+	overflow: auto;
+}
