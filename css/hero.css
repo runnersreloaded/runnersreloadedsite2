@@ -1,5 +1,6 @@
 #Hero-Section {
 	position: relative;
+	margin-top: 1%;
 }
 
 #Hero-Section::before {
@@ -22,7 +23,7 @@
 }
 
 .hero-group {
-	left: 2%;
+	left: 3%;
 	padding: 10% 0;
 	position: relative;
 	text-align: left;
@@ -36,7 +37,8 @@
 }
 
 .hero-group h4 {
-	font-family: 'Futura Std', sans-serif;
+	/*font-family: 'Futura Std', sans-serif;*/
+	font-family: 'Eurostile', sans-serif;
 	font-weight: 650;
 	text-transform: uppercase;
 	font-style: italic;
@@ -48,8 +50,9 @@
 
 .hero-group button {
 	font-family: 'Futura Std', sans-serif;
+	/*font-family: 'Eurostile', sans-serif;*/
 	font-style: italic;
-	letter-spacing: 1.85px;
+	letter-spacing: 5px;
 	font-size: 22px;
 	max-width: 100%;
 }
