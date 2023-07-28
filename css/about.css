@@ -14,7 +14,7 @@
 }
 
 #About-Section h2 {
-		/*font-family: 'Futura Std', sans-serif;*/
+		font-family: 'Eurostile', sans-serif;
 		font-size: 3em;
 		text-transform: uppercase;
 		font-style: italic;
@@ -29,7 +29,7 @@
 #About-Section p {
 	margin-left: 5%;
 	margin-right: 5%;
-	font-family: 'Futura Std', sans-serif;
+	font-family: 'Kanit', sans-serif;
 	font-size: 20px;
 	color: white;
 	text-shadow: 2px 2px 5px black;
