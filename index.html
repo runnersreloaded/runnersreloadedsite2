@@ -6,10 +6,10 @@
     <title>Sonic Runners Reloaded | Official Site</title>
     <link rel="icon" href="https://i.imgur.com/O4RW1g7.png">
     <!--Insert CSS Here-->
-    <link rel="stylesheet" href="css/style.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/hero.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/about.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/news.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css\style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css\hero.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css\about.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css\hp-news-section.css" rel="stylesheet" type="text/css">
 
     <!--BootStrap CSS and Icon Link Tag-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
@@ -22,11 +22,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/bxw5pfq.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
     
 </head>
 <body>
     <!--NavBar Section-->
-    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark fixed-top" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark sticky-top" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="https://i.imgur.com/9du7Ke4.png" alt="Sonic Runners Reloaded Logo" height="25">
@@ -37,10 +38,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><button type="button" class="btn btn-secondary">News</button></a>
+                        <a class="nav-link" href="news\index.html"><button type="button" class="btn btn-secondary">News</button></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="https://sonicrunnersreloaded.notion.site/Sonic-Runners-Reloaded-FAQ-4c4c3bec022b452d850103f6408b33ab"><button type="button" class="btn btn-secondary">FAQ</button></a>
+                        <a class="nav-link" href="#"><button type="button" class="btn btn-secondary">FAQ</button></a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="https://gamejolt.com/games/sonicrunnersreloadedgame/303717" target="_blank"><button type="button" class="btn btn-secondary">Download</button></a>
@@ -67,7 +68,7 @@
     <!--Hero Section Starts-->
     <section id="Hero-Section">
         <video class="herovideo" oncontextmenu="return false" autoplay loop muted>
-            <source src="media/hero_vid.mp4" type="video/mp4" />
+            <source src="media\hero_vid.mp4" type="video/mp4" />
         </video>
         <br>
         <div class="hero-group">
@@ -80,39 +81,36 @@
 
     <!--About Section Starts-->
     <section id="About-Section">
-        <h2>What is Sonic Runners Reloaded?</h2><br>
-        <p>Sonic Runners Reloaded is a fangame based after the original Sonic Runners that takes place during Sonic Forces.
-            <br><br>
-            First started development back in 2017, it started out as a Sonic Runners clone with Sonic Advance sprites, and it had locations and an art style that was inspired by Sonic Forces. The game quickly evolved into an action-packed, fast-paced fan-game with a new, original story. 
-            <br><br>
-            Sonic Runners Reloaded takes what the original Sonic Runners mobile game did, and removes some features and adds on to features. Play as a Speed-Type character, Fly-Type character, or a Power-Type character. Like in the original game, you'll need to use all 3 types eventually to progress through the story.</p>
+        <div id="About-Content">
+          <h2>What is Sonic Runners Reloaded?</h2><br>
+          <p>Sonic Runners Reloaded is a fangame based after the original Sonic Runners that takes place during Sonic Forces.
+              <br><br>
+              First started development back in 2017, it started out as a Sonic Runners clone with Sonic Advance sprites, and it had locations and an art style that was inspired by Sonic Forces. The game quickly evolved into an action-packed, fast-paced fan-game with a new, original story. 
+              <br><br>
+              Sonic Runners Reloaded takes what the original Sonic Runners mobile game did, and removes some features and adds on to features. Play as a Speed-Type character, Fly-Type character, or a Power-Type character. Like in the original game, you'll need to use all 3 types eventually to progress through the story.
+          </p>
+        </div>
+        <!--Media Section | Add Video / Screenshot-->
+        <!--<div id="About-Media">
+          <h2>MEDIA</h2>
+        </div>-->
     </section>
     <!--About Section Ends-->
 
     <!--News Section Starts-->
     <section id="news">
         <h2 style="text-align: center;">INFORMATION</h2>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
-                <div class="col-md-8 col-sm-6">
-                    <h3>NEWS</h3>
+                <div class="col-lg-8">
+                    <h3 class="text-center">NEWS</h3>
                     <div class="newsbkg">
-                        <p class="text-left"><span id="date">2023 • 07 • 04</span><br><a href="#">Sonic Runners Reloaded Coming to iOS</a></p>
-                        <hr style="border-top: 5px dotted #dc3545">
-                        <p class="text-left"><span id="date">0000 • 00 • 00</span><br><a href="#">News Post 2</a></p>
-                        <hr style="border-top: 5px dotted #dc3545">
-                        <p class="text-left"><span id="date">0000 • 00 • 00</span><br><a href="#">News Post 3</a></p>
-                        <hr style="border-top: 5px dotted #dc3545">
-                        <p class="text-left"><span id="date">0000 • 00 • 00</span><br><a href="#">News Post 4</a></p>
-                        <hr style="border-top: 5px dotted #dc3545">
-                        <p class="text-left"><span id="date">0000 • 00 • 00</span><br><a href="#">News Post 5</a></p>
-                        <hr style="border-top: 5px dotted #dc3545">
+                        <div class="latest-news"></div>
                     </div>
-                    <br>
                 </div>
-                <div class="col-12 col-md-4 col-sm-6" id="tweettimeline">
+                <div class="col-lg-4" id="tweettimeline">
                     <div class="timelinecontainer">
-                        <a class="twitter-timeline" data-width="330" data-height="535" href="https://twitter.com/RunnersReloaded?ref_src=twsrc%5Etfw">Tweets by RunnersReloaded</a> 
+                        <a class="twitter-timeline" data-height="475" href="https://twitter.com/RunnersReloaded?ref_src=twsrc%5Etfw">Tweets by RunnersReloaded</a> 
                         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                     </div>
                 </div>
@@ -120,10 +118,9 @@
         </div>
     </section>
     <!--News Section Ends-->
-
     <!--Footer-->
+    <section id="footer-hr"></section>
     <section id="footer-section">
-            <hr>
             <div class="top-footer-group">
                 <img src="https://i.imgur.com/9du7Ke4.png" class="img-fluid" alt="Sonic Runners Reloaded Logo" width="602">
                 <br><br>
@@ -160,5 +157,10 @@
     <!--BootStrap JavaScript-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <!--News JavaScript-->
+    <script src="news/newspost.js"></script>
+    <script src="news/latestnewsscript.js"></script>
+
 </body>
 </html>
