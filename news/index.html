@@ -109,5 +109,14 @@
   </section>
     <script src="newspost.js"></script>
     <script src="newsscript.js"></script>
+    <script>
+      // Check if the URL contains "index.html"
+      if (window.location.href.includes('index.html')) {
+      // Remove "index.html" from the URL
+      const newUrl = window.location.href.replace('/index.html', '');
+     // Change the URL without reloading the page
+      history.pushState({}, null, newUrl);
+}
+    </script>
 </body>
 </html>
