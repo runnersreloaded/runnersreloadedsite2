@@ -2,7 +2,7 @@
 	padding: 4% 10% 3% 10%;
 	text-align: center;
 	background-color: #05cafb;
-	background-image:linear-gradient(rgba(5, 202, 251, 0.25), rgba(5, 202, 251, 0.95)), url("https://i.imgur.com/P4ngrjz.png");
+	background-image:linear-gradient(rgba(5, 202, 251, 0), rgba(29, 134, 246, 0.95)), url("https://i.imgur.com/P4ngrjz.png");
 	position: relative;
 	/* Copy background properties from parallax1 */
 	background-position: center;
