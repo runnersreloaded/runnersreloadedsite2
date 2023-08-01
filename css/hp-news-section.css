@@ -1,0 +1,78 @@
+#news {
+	padding-top: 3%;
+	background-image: linear-gradient(rgba(255, 71, 127, 0.75), rgba(255, 71, 127, 0.95)), url("https://i.imgur.com/DAEx1bx.jpg");
+	background-color: #ff477f;
+	min-height: 50vh; 
+	position: relative;
+	/* Copy background properties from parallax1 */
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*gap: 20px;*/
+	width:100%;
+	margin: 0 auto;
+
+}
+
+#news .container {
+	padding: 0 10% 3% 10%;
+}
+
+#news h2 {
+	/*font-family: 'Futura Std', sans-serif;*/
+	font-family: 'Eurostile', sans-serif;
+	font-weight: 650;
+	text-align: center;
+	text-transform: uppercase;
+	text-shadow: 2px 2px 5px black;
+	color: white;
+	font-style: italic;
+	font-size: 3.5em;
+	margin-bottom: 2rem;
+	/*scale: 1.5;*/
+}
+
+#news h3 {
+	font-family: 'Futura Std', sans-serif;
+	/*font-family: 'Eurostile', sans-serif;*/
+	text-align: left;
+	font-size: 3em;
+	text-transform: uppercase;
+	/*font-style: italic;*/
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	/*text-decoration: underline;*/
+}
+
+.latest-news p {
+	/*font-family: 'Futura Std', sans-serif;*/
+	font-family: 'Kanit', sans-serif;
+	color: navy;
+	font-size: 20px;
+	border-bottom: #dc3545 5px dotted;
+}
+
+#news a:link{
+	text-decoration: none;
+}
+
+#date {
+	color: #df474e;
+	font-size: 1em;
+	font-weight: 500;
+}
+
+.timelinecontainer {
+	width: 100%;
+	height: auto;
+	/*margin-right: 0.1rem;*/
+}
+
+.newsbkg {
+	padding: 1.5% 1.5% 1.5% 1.5%;
+	opacity: 100%;
+	background: #05cafb;
+	margin-bottom: 1rem;
+	border-radius: 10px;
+}

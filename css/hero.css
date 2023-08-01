@@ -1,6 +1,6 @@
 #Hero-Section {
 	position: relative;
-	margin-top: 1%;
+	/*margin-top: 1%;*/
 }
 
 #Hero-Section::before {
@@ -24,11 +24,11 @@
 
 .hero-group {
 	left: 3%;
-	padding: 10% 0;
+	padding: 8% 0;
 	position: relative;
 	text-align: left;
 	width: 95%;
-	gap: 20px;
+	/*gap: 20px;*/
 }
 
 .hero-group img {

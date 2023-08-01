@@ -3,7 +3,7 @@ html, body {
 	padding: 0;
 	border: 0;
     width: 100%;
-    min-height: 100vh;
+    height: 100%;
 	overflow-x: hidden;
 }
 
@@ -14,8 +14,14 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,secti
 }
 
 /* footer */
+#footer-hr {
+	background-color: whitesmoke;
+	padding: 3px;
+}
+
 #footer-section {
-    padding: 0% 10% 2% 10%;
+	border-color: aliceblue;
+    padding: 2% 10% 2% 10%;
 	/*background-image: url("https://i.imgur.com/DAEx1bx.jpg"); */
 	background-color: black;
 	min-height: 50vh; 
