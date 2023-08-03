@@ -45,12 +45,12 @@
 	/*text-decoration: underline;*/
 }
 
-.latest-news p {
+.latest-news a {
 	/*font-family: 'Futura Std', sans-serif;*/
 	font-family: 'Kanit', sans-serif;
 	color: navy;
 	font-size: 20px;
-	border-bottom: #dc3545 5px dotted;
+	/*border-bottom: #dc3545 5px dotted;*/
 }
 
 #news a:link{
@@ -76,3 +76,4 @@
 	margin-bottom: 1rem;
 	border-radius: 10px;
 }
+
