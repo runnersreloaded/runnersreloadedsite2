@@ -24,49 +24,19 @@ body, html {
 
 }
 
-.newspagebg {
-  padding: 1% 10%;
+#newspagebg {
+  padding: 20px 15%;
   background-color: #ff477f;
 }
 
-.news-posts {
-  padding: 1% 1% 1% 1%;
-	opacity: 100%;
-	background: #05cafb;
-	margin: 1%;
-	border-radius: 10px;
-}
-
-#date {
-	color: #df474e;
-}
-
-.news-posts p {
-	/*font-family: 'Futura Std', sans-serif;*/
-	font-family: 'Kanit', sans-serif;
-	color: navy;
-	font-size: 20px;
-  border-bottom: #dc3545 5px dotted;
+iframe {
+  border-radius: 10px;
 }
 
 a:link{
 	text-decoration: none;
 }
 
-.pagination a {
-  color: white;
-}
-
-.pagination a:hover {
-  color:#dc3545;
-}
-
-.pagination {
-  display: flex;
-  justify-content: center; /* Horizontally center the links */
-  align-items: center; /* Vertically center the links */
-  margin-top: 20px;
-}
 
 #footer-hr {
 	background-color: whitesmoke;
