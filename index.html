@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sonic Runners Reloaded | Official Site</title>
+    <meta property=og:type content=website>
+    <meta property="og:title" content="Sonic Runners Reloaded" />
+    <meta property=og:image content="https://i.imgur.com/9du7Ke4.png">
     <link rel="icon" href="https://i.imgur.com/O4RW1g7.png">
     <!--Insert CSS Here-->
     <link rel="stylesheet" href="css\style.css" type="text/css">
@@ -22,14 +25,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.typekit.net/bxw5pfq.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
     
 </head>
 <body>
     <!--NavBar Section-->
     <nav class="navbar navbar-expand-lg bg-dark border-bottom border-bottom-dark sticky-top" data-bs-theme="dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="https://i.imgur.com/9du7Ke4.png" alt="Sonic Runners Reloaded Logo" height="25">
               </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,10 +40,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="news/index.html"><button type="button" class="btn btn-secondary">News</button></a>
+                        <a class="nav-link" href="#news"><button type="button" class="btn btn-secondary">News</button></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><button type="button" class="btn btn-secondary">FAQ</button></a>
+                        <a class="nav-link" href="https://bit.ly/3GWhisW"><button type="button" class="btn btn-secondary">FAQ</button></a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link" href="https://gamejolt.com/games/sonicrunnersreloadedgame/303717" target="_blank"><button type="button" class="btn btn-secondary">Download</button></a>
@@ -95,9 +97,9 @@
         <div class="Media-Section">
           <div class="container text-center">
             <div class="row g-4">
-              <div class="col-lg-4"><img src="media/image.png" id="screenshot1" class="img-fluid"></div>
-              <div class="col-lg-4"><img src="media/image.png" id="screenshot2" class="img-fluid"></div>
-              <div class="col-lg-4"><img src="media/image.png" id="screenshot3" class="img-fluid"></div>
+              <div class="col-lg-4"><img src="media/sonicwhz.png" id="screenshot1" class="img-fluid"></div>
+              <div class="col-lg-4"><img src="media/tailskyrd.png" id="screenshot2" class="img-fluid"></div>
+              <div class="col-lg-4"><img src="media/knuxlavamnt.png" id="screenshot3" class="img-fluid"></div>
             </div>
           </div>
         </div>
@@ -178,5 +180,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
     <script src="js/indexhtml.js"></script>
     <script src="js/screenshotmodal.js"></script>
+
+    <button onclick="topFunction()" id="topbutton" title="Go to top">Top</button>
 </body>
 </html>

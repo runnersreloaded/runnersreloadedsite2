@@ -1,4 +1,5 @@
 #news {
+	scroll-behavior: smooth;
 	padding-top: 3%;
 	background-image: linear-gradient(rgba(255, 71, 127, 0.75), rgba(255, 71, 127, 0.95)), url("https://i.imgur.com/DAEx1bx.jpg");
 	background-color: #ff477f;
@@ -12,7 +13,6 @@
 	/*gap: 20px;*/
 	width:100%;
 	margin: 0 auto;
-
 }
 
 #news .container {

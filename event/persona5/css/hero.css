@@ -1,0 +1,50 @@
+
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+	padding: 0;
+	border: 0;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
+
+.hero-container {
+	position: relative;
+}
+
+.topright {
+	position: absolute;
+	top: 8px;
+	right: 16px;
+	animation: floatIn 1s ease-in-out;
+}
+
+@keyframes floatIn {
+	0% {
+	  opacity: 0;
+	  transform: translateY(50px);
+	}
+	100% {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+}
+
+#event-period {
+	background-color: red;
+	padding: 2%;
+}
+
+#event-period h1 {
+	font-family: 'futura Std';
+	font-size: 3em;
+	text-align: center;
+	font-weight: 650;
+}
+
+#event-period h2 {
+	font-size: 2em;
+	font-family: 'futura Std';
+	text-align: center;
+}

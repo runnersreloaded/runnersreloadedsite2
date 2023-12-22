@@ -1,0 +1,31 @@
+#character-section {
+    background-image: url("../media/CharacterSelectArtwork_JokerSonicV2.jpg");
+    padding: 4% 10% 3% 10%;
+	text-align: center;
+	background-color: red;
+    position: relative;
+    background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.characterinfo {
+    padding: 2%;
+    background-color: bisque;
+    border-radius: 10px;
+}
+
+.characterinfo h2 {
+    font-family: 'futura std';
+    font-size: 56px;
+}
+
+.characterinfo p {
+    font-family: 'futura std';
+    font-size: 16px;
+}
+
+#character-section img {
+    filter: drop-shadow(1px 1px 4px rgba(0,0,0,.75));
+}
