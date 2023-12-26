@@ -1,0 +1,51 @@
+html, body {
+    margin: 0;
+	padding: 0;
+	border: 0;
+    width: 100%;
+    height: 100%;
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+    color: black;
+    background-color: black;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
+
+#Hero-Section{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.5)), url("media/reversedheroimg.gif");
+    height:82%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.ReverseLogo{
+	position: absolute;
+	text-align: center;
+    top: 25%;
+    padding: 50px;
+	width: 100%;
+	text-shadow: 2px 2px 5px black;
+}
+.GameJoltBtn{
+	position: absolute;
+	text-align: center;
+    top: 75%;
+    padding: 25px;
+	width: 100%;
+}
+
+#ReverseFooter{
+    padding: 1% 5% 1% 5%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 12px;
+}
+
+#Hero-Section a{
+    color: white;
+}
