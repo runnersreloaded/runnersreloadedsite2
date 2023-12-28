@@ -56,8 +56,10 @@
 	text-transform: uppercase;
 	font-style: italic;
 	color:whitesmoke;
-	font-size: 55px;
+	/*font-size: 55px;*/
+	font-size: 3.5rem;
 	letter-spacing: 1.5px;
+	text-shadow: 2px 2px 5px black;
 	opacity: 0;
 	transform: translateX(-50px);
 	animation: revealFromLeft 1s forwards;
@@ -74,7 +76,8 @@
 	font-family: 'Futura Std', sans-serif;
 	/*font-family: 'Eurostile', sans-serif;*/
 	font-style: italic;
-	letter-spacing: 5px;
+	/*letter-spacing: 5px;*/ /*Original*/
+	letter-spacing: 2.5px; /*Pre-2.0 Release*/
 	font-size: 22px;
 	max-width: 100%;
 	opacity: 0;
