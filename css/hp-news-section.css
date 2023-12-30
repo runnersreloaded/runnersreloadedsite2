@@ -1,8 +1,9 @@
 #news {
 	scroll-behavior: smooth;
 	padding-top: 3%;
-	background-image: linear-gradient(rgba(255, 71, 127, 0.75), rgba(255, 71, 127, 0.95)), url("https://i.imgur.com/DAEx1bx.jpg");
-	background-color: #ff477f;
+	/*background-image: linear-gradient(rgba(255, 71, 127, 0.75), rgba(255, 71, 127, 0.95)), url("https://i.imgur.com/DAEx1bx.jpg");
+	background-color: #ff477f;*/
+	background-image: url(../media/DAEx1bx.jpg);
 	min-height: 50vh; 
 	position: relative;
 	/* Copy background properties from parallax1 */
