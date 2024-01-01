@@ -74,3 +74,18 @@
 	max-width: 960px;
   }
 
+.modal img{
+	animation: floatIn 0.5s ease-in-out;
+}
+
+@keyframes floatIn {
+	0% {
+	  opacity: 0;
+	  transform: translateY(25px);
+	}
+	100% {
+	  opacity: 1;
+	  transform: translateY(0);
+	}
+
+}
